@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+.icon{
+    color: #00E8E8;
+}
+.navbar-brand{
+    font-family: 'Pacifico';
+}
+.nav-link{
+	font-size: 16px;
+	color: black;
+	margin: 15px;
+	font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+	color: rgb(28, 212, 53);
+}
+.active .nav-link{
+	color: rgb(128, 240, 175);
+}
+.banner{
+    background-image: url(/image/image2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10% 0px;
+  /* height: 500px; */
+}
+.site-title{
+	color: white;
+	font-family:'Righteous';
+}
+.features{
+    padding: 2% 10%;
+}
+.support{
+    background-image: url(/image/image3.jpg);
+    /* height: 500px; */
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 12% 0px;
+}
+.specialities{
+    padding: 5% 0px ;
+    width: 60%;
+}
+.specialities i{
+    color: rgb(32 177 170);
+}
